@@ -14,7 +14,9 @@ Yes I would because we know the max number of charaters we are expecting and uni
 4. What do you expect to happen if we run our puppeteer tests with the field “headless” set to true?\
 Puppeteer will run the tests without a browser UI.
 
-5. What would your beforeAll callback look like if you wanted to start from the settings page before every test case?\
+5. What would your beforeAll callback look like if you wanted to start from the settings page before every test case?
 <section>beforeEach(async() = {await page.click("header > img");});</section>
+
+
 
 [screenshot](https://github.com/EmmaYuan/Lab8/blob/main/screenshot.png)
