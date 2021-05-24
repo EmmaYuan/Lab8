@@ -1,7 +1,7 @@
 # Lab8_Starter
 Emma Yuan
 
-## Check your understanding q's (FILL OUT)
+## Check your understanding q's
 1. In your own words: Where would you fit your automated tests in your Bujo project development pipeline? (just write the letter)\
 Use GitHub Actions to automatically run the automated tests when the code is uploaded to Github.
 
@@ -16,3 +16,4 @@ Puppeteer will run the tests without a browser UI.
 
 5. What would your beforeAll callback look like if you wanted to start from the settings page before every test case?\
 <section>beforeEach(async() = {await page.click("header > img");});</section>
+![screenshot](https://github.com/EmmaYuan/Lab8)
